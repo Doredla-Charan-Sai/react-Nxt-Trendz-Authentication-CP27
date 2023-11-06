@@ -1,0 +1,64 @@
+/* Write your CSS code here */
+.login-bg-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background-color: white;
+  height: 100vh;
+}
+.login-content-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.login-image {
+  width: 50%;
+  height: 80%;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  width: 30%;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+.login-logo {
+  width: 40%;
+  align-self: center;
+  margin-bottom: 25px;
+}
+.label {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.login-input {
+  background-color: #e2e8f0;
+  margin-bottom: 20px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+.login-btn {
+  height: 35px;
+  color: white;
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 13px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.error-msg {
+  color: red;
+  font-size: 11px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}

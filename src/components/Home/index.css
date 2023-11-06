@@ -1,0 +1,12 @@
+/* Write your CSS code here */
+.home-cont {
+  padding: 30px;
+  font-family: 'Roboto';
+  color: black;
+}
+.text-cont-home {
+  width: 60%;
+}
+.home-img {
+  width: 36%;
+}

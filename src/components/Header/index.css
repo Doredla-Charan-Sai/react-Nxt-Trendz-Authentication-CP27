@@ -1,0 +1,39 @@
+/* Write your CSS code here */
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+.header-image {
+  width: 15%;
+}
+.header-list {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-list-item {
+  width: 80px;
+}
+.header-item {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: black;
+}
+.logout-btn {
+  font-family: 'Roboto';
+  font-size: 13px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+  height: 30px;
+  color: white;
+  background-color: #0b69ff;
+}
